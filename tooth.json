@@ -20,8 +20,8 @@
             "destination": "LiteLoader.dll"
         },
         {
-            "source": "LLPeEditor.dll",
-            "destination": "LLPeEditor.dll"
+            "source": "LLPeEditor.exe",
+            "destination": "LLPeEditor.exe"
         },
         {
             "source": "LLPreLoader.dll",
