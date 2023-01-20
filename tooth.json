@@ -1,7 +1,7 @@
 {
     "format_version": 1,
     "tooth": "github.com/Tooth-Hub/LiteLoaderBDS",
-    "version": "1.0.0",
+    "version": "2.0.9",
     "dependencies": {},
     "information": {
         "name": "LiteLoaderBDS",
@@ -12,20 +12,24 @@
     },
     "placement": [
         {
-            "source": "LLPeEditor.exe",
-            "destination": "LLPeEditor.exe"
+            "source": "plugins/*",
+            "destination": "plugins/*"
+        },
+        {
+            "source": "Chakra.dll",
+            "destination": "Chakra.dll"
+        },
+        {
+            "source": "ChakraCore.dll",
+            "destination": "ChakraCore.dll"
         },
         {
             "source": "LiteLoader.dll",
             "destination": "LiteLoader.dll"
         },
         {
-            "source": "LLPreLoader.dll",
-            "destination": "LLPreLoader.dll"
-        },
-        {
-            "source": "plugins/*",
-            "destination": "plugins/*"
+            "source": "SymDB2.exe",
+            "destination": "SymDB2.exe"
         }
     ],
     "possession": [
