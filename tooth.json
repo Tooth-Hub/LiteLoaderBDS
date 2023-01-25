@@ -1,7 +1,7 @@
 {
     "format_version": 1,
     "tooth": "github.com/Tooth-Hub/LiteLoaderBDS",
-    "version": "2.9.2",
+    "version": "2.9.3",
     "dependencies": {},
     "information": {
         "name": "LiteLoaderBDS",
@@ -12,20 +12,20 @@
     },
     "placement": [
         {
-            "source": "plugins/*",
-            "destination": "plugins/*"
+            "source": "LLPeEditor.exe",
+            "destination": "LLPeEditor.exe"
         },
         {
             "source": "LiteLoader.dll",
             "destination": "LiteLoader.dll"
         },
         {
-            "source": "LLPeEditor.exe",
-            "destination": "LLPeEditor.exe"
-        },
-        {
             "source": "LLPreLoader.dll",
             "destination": "LLPreLoader.dll"
+        },
+        {
+            "source": "plugins/*",
+            "destination": "plugins/*"
         }
     ],
     "possession": [
