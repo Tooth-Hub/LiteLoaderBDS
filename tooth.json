@@ -30,5 +30,15 @@
     ],
     "possession": [
         "plugins/LiteLoader/"
+    ],
+    "commands": [
+        {
+            "type": "install",
+            "commands": [
+                ".\\LLPeEditor.exe --noPause"
+            ],
+            "GOOS": "windows",
+            "GOARCH": "amd64"
+        }
     ]
 }
