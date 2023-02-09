@@ -1,8 +1,14 @@
 {
     "format_version": 1,
     "tooth": "github.com/Tooth-Hub/LiteLoaderBDS",
-    "version": "2.10.0-beta.1",
-    "dependencies": {},
+    "version": "2.10.0-beta.2",
+    "dependencies": {
+        "github.com/tooth-hub/bds": [
+            [
+                "1.19.61"
+            ]
+        ]
+    },
     "information": {
         "name": "LiteLoaderBDS",
         "description": "An epoch-making cross-language plugin loader for Minecraft Bedrock Dedicated Server (BDS). ",
